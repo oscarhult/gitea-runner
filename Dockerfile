@@ -10,7 +10,7 @@ RUN apt-get update \
 
 WORKDIR /runner
 
-ADD https://dl.gitea.com/act_runner/main/act_runner-main-linux-amd64 runner
+ADD https://dl.gitea.com/act_runner/0.1.8/act_runner-0.1.8-linux-amd64 runner
 RUN chmod +x runner
 
 COPY start.sh .
